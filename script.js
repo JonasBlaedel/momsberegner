@@ -1,6 +1,6 @@
 momsberegner(24, 47);
 
-function momsberegner(beloeb, moms) {
+function momsberegner(beloeb, moms = 25) {
   console.log(beloeb * (1 + moms / 100));
 }
 
